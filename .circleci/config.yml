@@ -24,11 +24,11 @@ workflows:
     jobs:
       - build-and-test
   deploy:
-    requires:
-      - build-and-test
     jobs:
-      - deploy
-    filters:
-      branches:
-        only:
-          - master
+      - deploy:
+          requires:
+            - build-and-test
+          filters:
+            branches:
+              only:
+                - master
