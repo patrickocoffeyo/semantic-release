@@ -1,0 +1,33 @@
+{
+  "name": "semantic-release-example",
+  "version": "0.0.0-development",
+  "description": "Example semantic-release implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickocoffeyo/semantic-release.git"
+  },
+  "keywords": [
+    "example"
+  ],
+  "author": "Patrick Coffey <patrickcoffey48@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patrickocoffeyo/semantic-release/issues"
+  },
+  "homepage": "https://github.com/patrickocoffeyo/semantic-release#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/commit-analyzer": "^8.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/release-notes-generator": "^9.0.1",
+    "husky": "^4.2.5",
+    "semantic-release": "^17.0.7"
+  }
+}
