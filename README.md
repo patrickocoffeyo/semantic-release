@@ -2,7 +2,7 @@
 
 Example semantic-release implementation.
 
-## Here's what we need to set up:
+## Tools
 
 - [commitlint](https://commitlint.js.org/): enforce a commit-message format standard so commit messages can be analyzed to determine the correct version bump (fix? feature? refactor?), release notes, changelog updates, etc.
 - [semantic-release](https://semantic-release.gitbook.io): automate the creation of releases, enforce the use of [semver spec](https://semver.org), and push releases to different places.
